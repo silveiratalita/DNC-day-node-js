@@ -1,0 +1,21 @@
+{
+  "name": "day-api-node",
+  "version": "1.0.0",
+  "description": "Aula para os alunos da escola DNC - Minha primeira API em Node Js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "repositori@git"
+  },
+  "author": "Talita Silveira",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
