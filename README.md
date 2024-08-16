@@ -24,21 +24,13 @@ Este projeto é uma API de lista de tarefas (to-do list) que permite criar, atua
 ## 📝 Estrutura do Projeto
 
 A estrutura do projeto é organizada da seguinte forma:
-/nome-do-repositorio
-│
-├── /controller
-│ ├── commandController.js
-│ └── queryController.js
-│
-├── /routes
-│ └── tasks.js
-│
-├── /data
-│ └── tasks.js
-│
-├── package.json
-├── README.md
-└── server.js
+.
+├── controller
+│   ├── commandController.js
+│   └── queryController.js
+├── index.js
+├── router.js
+└── service
 - **/controller**: Contém os controladores que gerenciam a lógica de criação, atualização, exclusão e consulta de tarefas.
 - **/routes**: Define as rotas da API e mapeia para os métodos dos controladores.
 - **/data**: Armazena os dados das tarefas.
