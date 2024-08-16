@@ -5,10 +5,10 @@ const command = commandController();
 const query = queryController();
 
 const router = express.Router();
-router.post("/create", command.createBook.bind(command));
-router.put("/update/:id", command.updateBook.bind(command));
-router.delete("/delete/:id", command.deleteBook.bind(command));
+router.post("/tasks", command.createTask.bind(command));
+router.put("/tasks/:id", command.updateTask.bind(command));
+router.delete("/tasks/:id", command.deleteTask.bind(command));
 
-router.get("/books", query.index.bind(query));
-router.get("/books/:id", query.getBookById.bind(query));
+router.get("/tasks", query.index.bind(query));
+router.get("/tasks/:id", query.getTaskById.bind(query));
 module.exports = { router };
