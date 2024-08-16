@@ -1,5 +1,5 @@
 module.exports = {
-  "ids": 4,
+  "ids": 7,
   "books": [
     {
       "id": 1,
@@ -23,8 +23,8 @@ module.exports = {
       "genre": "Clássico"
     },
     {
-      "id": 4,
-      "title": "Branca de Nev 2",
+      "id": 7,
+      "title": "Contos de TERROR2tt",
       "author": "Irmão Grimm",
       "year": 1817,
       "genre": "Clássico"
