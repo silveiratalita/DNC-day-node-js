@@ -1,0 +1,33 @@
+{
+  "count": 7,
+  "tasks": [
+    {
+      "id": 2,
+      "title": "Estudar o respositorio da Aula de Api da escola DNC",
+      "description": "Participar da aula na Escola DNC.",
+      "dueDate": "2024-08-20",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "Estudar o respositorio da Aula de Api da escola DNC",
+      "description": "Participar da aula na Escola DNC.",
+      "dueDate": "2024-08-20",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "Estudar o respositorio da Aula de Api da escola DNC",
+      "description": "Participar da aula na Escola DNC.",
+      "dueDate": "2024-08-20",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "title": "Comprar PÃO na padaria",
+      "description": "Comprar leite, pão e ovos no supermercado",
+      "dueDate": "2024-08-20",
+      "completed": true
+    }
+  ]
+}
